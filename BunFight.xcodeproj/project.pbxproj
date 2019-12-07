@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00B0090DD2E484FD88CFEA2F /* Pods_BunFight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73640EF5420703FE087B6B0E /* Pods_BunFight.framework */; };
+		C4909CA5239C00290083A57F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4909CA4239C00290083A57F /* AppDelegate.swift */; };
+		C4909CA7239C00290083A57F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4909CA6239C00290083A57F /* SceneDelegate.swift */; };
+		C4909CAC239C00290083A57F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4909CAA239C00290083A57F /* Main.storyboard */; };
+		C4909CAE239C002D0083A57F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4909CAD239C002D0083A57F /* Assets.xcassets */; };
+		C4909CB1239C002D0083A57F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4909CAF239C002D0083A57F /* LaunchScreen.storyboard */; };
+		C4909CB9239C018D0083A57F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C4909CB8239C018D0083A57F /* GoogleService-Info.plist */; };
+		C4AC8FBB239C0F7C0019AC4D /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC8FBA239C0F7C0019AC4D /* HomeVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0BE98B0A0A8FB6C4999ACD44 /* Pods-BunFight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BunFight.release.xcconfig"; path = "Target Support Files/Pods-BunFight/Pods-BunFight.release.xcconfig"; sourceTree = "<group>"; };
+		4B00BB1413C211E8E32C87F8 /* Pods-BunFight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BunFight.debug.xcconfig"; path = "Target Support Files/Pods-BunFight/Pods-BunFight.debug.xcconfig"; sourceTree = "<group>"; };
+		73640EF5420703FE087B6B0E /* Pods_BunFight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BunFight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4909CA1239C00290083A57F /* BunFight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BunFight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4909CA4239C00290083A57F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C4909CA6239C00290083A57F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C4909CAB239C00290083A57F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4909CAD239C002D0083A57F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4909CB0239C002D0083A57F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4909CB2239C002D0083A57F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4909CB8239C018D0083A57F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C4AC8FBA239C0F7C0019AC4D /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4909C9E239C00290083A57F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00B0090DD2E484FD88CFEA2F /* Pods_BunFight.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3CFDE2CAE72D3A0864E6287 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73640EF5420703FE087B6B0E /* Pods_BunFight.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4909C98239C00290083A57F = {
+			isa = PBXGroup;
+			children = (
+				C4909CA3239C00290083A57F /* BunFight */,
+				C4909CA2239C00290083A57F /* Products */,
+				D708BE75B69572363DA773F8 /* Pods */,
+				B3CFDE2CAE72D3A0864E6287 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C4909CA2239C00290083A57F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4909CA1239C00290083A57F /* BunFight.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4909CA3239C00290083A57F /* BunFight */ = {
+			isa = PBXGroup;
+			children = (
+				C4909CA4239C00290083A57F /* AppDelegate.swift */,
+				C4909CA6239C00290083A57F /* SceneDelegate.swift */,
+				C4909CAA239C00290083A57F /* Main.storyboard */,
+				C4AC8FBA239C0F7C0019AC4D /* HomeVC.swift */,
+				C4909CAD239C002D0083A57F /* Assets.xcassets */,
+				C4909CAF239C002D0083A57F /* LaunchScreen.storyboard */,
+				C4909CB2239C002D0083A57F /* Info.plist */,
+				C4909CB8239C018D0083A57F /* GoogleService-Info.plist */,
+			);
+			path = BunFight;
+			sourceTree = "<group>";
+		};
+		D708BE75B69572363DA773F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B00BB1413C211E8E32C87F8 /* Pods-BunFight.debug.xcconfig */,
+				0BE98B0A0A8FB6C4999ACD44 /* Pods-BunFight.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4909CA0239C00290083A57F /* BunFight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4909CB5239C002D0083A57F /* Build configuration list for PBXNativeTarget "BunFight" */;
+			buildPhases = (
+				6DAC5DC7B0719411973D0CB7 /* [CP] Check Pods Manifest.lock */,
+				C4909C9D239C00290083A57F /* Sources */,
+				C4909C9E239C00290083A57F /* Frameworks */,
+				C4909C9F239C00290083A57F /* Resources */,
+				0CEC370B29FEA23764DEE5E7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BunFight;
+			productName = BunFight;
+			productReference = C4909CA1239C00290083A57F /* BunFight.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4909C99239C00290083A57F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Joshua Colley";
+				TargetAttributes = {
+					C4909CA0239C00290083A57F = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = C4909C9C239C00290083A57F /* Build configuration list for PBXProject "BunFight" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4909C98239C00290083A57F;
+			productRefGroup = C4909CA2239C00290083A57F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4909CA0239C00290083A57F /* BunFight */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4909C9F239C00290083A57F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4909CB1239C002D0083A57F /* LaunchScreen.storyboard in Resources */,
+				C4909CB9239C018D0083A57F /* GoogleService-Info.plist in Resources */,
+				C4909CAE239C002D0083A57F /* Assets.xcassets in Resources */,
+				C4909CAC239C00290083A57F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CEC370B29FEA23764DEE5E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BunFight/Pods-BunFight-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BunFight/Pods-BunFight-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BunFight/Pods-BunFight-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DAC5DC7B0719411973D0CB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BunFight-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4909C9D239C00290083A57F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4AC8FBB239C0F7C0019AC4D /* HomeVC.swift in Sources */,
+				C4909CA5239C00290083A57F /* AppDelegate.swift in Sources */,
+				C4909CA7239C00290083A57F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C4909CAA239C00290083A57F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4909CAB239C00290083A57F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4909CAF239C002D0083A57F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4909CB0239C002D0083A57F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4909CB3239C002D0083A57F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C4909CB4239C002D0083A57F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4909CB6239C002D0083A57F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B00BB1413C211E8E32C87F8 /* Pods-BunFight.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3SZ5Q7PFC5;
+				INFOPLIST_FILE = BunFight/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = joshcolley.com.BunFight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4909CB7239C002D0083A57F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BE98B0A0A8FB6C4999ACD44 /* Pods-BunFight.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3SZ5Q7PFC5;
+				INFOPLIST_FILE = BunFight/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = joshcolley.com.BunFight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4909C9C239C00290083A57F /* Build configuration list for PBXProject "BunFight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4909CB3239C002D0083A57F /* Debug */,
+				C4909CB4239C002D0083A57F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4909CB5239C002D0083A57F /* Build configuration list for PBXNativeTarget "BunFight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4909CB6239C002D0083A57F /* Debug */,
+				C4909CB7239C002D0083A57F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4909C99239C00290083A57F /* Project object */;
+}
